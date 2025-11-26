@@ -1,0 +1,19 @@
+---
+syntax: manifest_v1
+description: Boolean Type Field Edge App
+id: 01KB0HFRWNCGGZS2PY1RBX136F
+author: Screenly, Inc.
+ready_signal: true
+entrypoint:
+  type: file
+settings:
+  boolean_type_field:
+    type: string
+    default_value: 'false'
+    title: Boolean Type Field Value
+    optional: true
+    help_text:
+      properties:
+        help_text: An example of a boolean type field that is used in index.html.
+        type: boolean
+      schema_version: 1
